@@ -1,0 +1,51 @@
+#F {
+  background-color: aqua;
+}
+
+/* font-family:  */
+p {
+  font-family: "Arial";
+}
+
+h1 {
+  font-family: Noto Sans HK;
+}
+/* font-size:  */
+
+h1 {
+  font-size: ;
+}
+/*em allows dymanic font size application, we can set one size in the body and change font sizes relative to it */
+span {
+  font-size: 2em;
+}
+/* font-weight:  */
+p {
+  font-weight: bold;
+}
+/* line-height: is line spacing  */
+p {
+  line-height: 1.5em;
+}
+
+/* text-align:  */
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+/* text-decoration:   */
+
+p {
+  text-decoration: underline;
+}
+
+h1 {
+  text-decoration: line-through;
+}
+
+/*Custom font in CSS*/

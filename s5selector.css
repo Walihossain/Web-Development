@@ -1,0 +1,36 @@
+/* * {
+  border: 2px solid black;
+} */
+
+/* li a {
+  color: green;
+}
+
+h3 + ul {
+  border: 2px solid black;
+}
+body {
+  background-color: lightgray;
+}
+h1 {
+  color: blue;
+}
+
+a[href="https://www.google.com"] {
+  background-color: lightblue;
+}
+
+li:nth-of-type(3) {
+  background-color: yellow;
+} */
+
+/*Specificity and Inheriteance*/
+
+ul {
+  color: red;
+  border: 2px yellow solid;
+}
+
+li:nth-of-type(2) {
+  color: green;
+}

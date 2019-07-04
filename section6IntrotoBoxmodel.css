@@ -1,0 +1,17 @@
+/* Box model is idea that every element  has a box around it*/
+/* There are four different parts within the box model*/
+/* Content, padding, Border, Margin, around every element*/
+
+p {
+  /*Content Widith and margin*/
+  width: 50%;
+
+  /*Border*/
+  border: 2px solid crimson;
+
+  /*Padding*/
+  padding: 10px;
+  /*Margin*/
+
+  margin: 2px auto;
+}

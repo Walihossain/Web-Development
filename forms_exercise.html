@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register Form</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form action="">
+      <label for="fn">First Name:</label>
+      <input type="text" name="firstname" id="fn" />
+      <label for="ln">Last Name:</label>
+      <input type="text" name="lastname" id="ln" />
+      <p>
+        <label for="m">Male:</label>
+        <input type="radio" name="sex" id="m" value="male" />
+        <label for="f">Female:</label>
+        <input type="radio" name="sex" id="f" value="female" />
+        <label for="o">Other:</label>
+        <input type="radio" name="sex" id="o" value="other" />
+      </p>
+      <div>
+        <label for="em">Email:</label>
+        <input type="Email" name="email" id="em" required/>
+        <label for="pw">Password:</label>
+        <input type="password" name="password" id="pw" required minlength ="4" maxlength ="8" size="20" >
+      <div>
+        <p>
+          <label for="bday">Birthday:</label>
+          <input type="date" name="Birthday" id="bday" 
+          value = "Birthday" min="1900-01-01" max="2025-12-31" required>
+        </p>
+
+        <p>
+          <label for="chkbox">I agree to the terms and conditions</label>  <input type="checkbox" name="terms" id="chkbox"></p>
+
+        <p> <input type="Submit"></p>
+
+    
+    </form>
+  </body>
+</html>
