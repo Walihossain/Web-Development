@@ -1,0 +1,25 @@
+h1 {
+  font-family: Righteous;
+  width: 31%;
+  padding-bottom: 20px;
+  border-bottom: 1px #f1f1f1 solid;
+  margin-left: 1%;
+}
+
+.line1 img {
+  margin: 1%;
+  width: 31%;
+  float: left;
+}
+
+.line2 img {
+  margin: 1%;
+  width: 31%;
+  float: left;
+}
+
+.line3 img {
+  margin: 1%;
+  width: 31%;
+  float: left;
+}
